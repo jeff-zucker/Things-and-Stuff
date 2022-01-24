@@ -33,13 +33,13 @@ I see two related ways organizations can make use of these kinds of statements -
 
 For an organization's profile, we could offer dropdowns similar to the workplace-picker for individuals that would allow them to specify their relationship to the issues.  This would provide a very concise overview of the organization.  For example, part of Solid Project's profile might be modeled something like this :
 
-<img src="images/organization-profile.png" />
+<img src="organization-profile.png" />
 
 If we provide a UI to display details about the actions/products, this could be the basis of a public-facing profile for the organization.  Visitors would be able to see not only that an organization aims to address an issue, but also what services and produsts they offer in relation to the issue.  To paraphrase Bishop Romero  - a food bank that feeds the poor and an organization asking why the poor are starving are both dealing with the issue of right to food, but only one of them is taking actions immediately relevant to a hungry person.
 
 In addition to this broad public-facing use of the proposed terms, the organization's internal information infrastructure can also benefit from the terms.  For example stating that a given software product impacts a specific issue supports both internal review of impacts and external grant reporting.  Tim BL created a [diagram of how and why](https://www.w3.org/DesignIssues/diagrams/solid/solid-how-why.svg) that draws some broad connections between Solid and goals such as "Democracy".  Here is an example of how some of those connections might be modeled in a more detailed way :
 
-<img src="images/detailed-profile.png" />
+<img src="detailed-profile.png" />
 
 Although my examples apply mostly to NGOs, governmental agencies, and enterprises with explicitly social goals, there is no reason these same terms can't be used with more general organizations.  A car manufacturer has "Transportaion" as a core issue.  The UNESCO Thesaurus contains terms for most industries, fields of academic study, and other concepts that can form the core issues of organizations.
 
