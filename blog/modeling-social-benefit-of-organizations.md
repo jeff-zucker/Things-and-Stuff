@@ -7,8 +7,6 @@ Tim BL, in [his post on Public Data](https://solidos.solidcommunity.net/public/2
 Social benefit relates to social issues - problems that people and communities face, rights and needs they have. A robust vocabulary exists for discussing social issues - [the UNESCO thesaurus](http://vocabularies.unesco.org/thesaurus) (hereafter referred to as un:).  It is a large, carefully organized, multi-lingual list of human activities that includes many kinds of social issues - problems like `un:concept5051` ("Domestic Violence"), human rights like `un:concept7681` ("Right to Food"), and other social needs such as `un:concept1983` ("Youth Hostels").  Additionally, the thesaurus uses the skos vocabulary to define broader/narrower/related relationships between issues, is available as [Turtle](http://vocabularies.unesco.org/exports/thesaurus/latest/unesco-thesaurus.ttl) and [RDF-XML](http://vocabularies.unesco.org/browser/rest/v1/thesaurus/data?format=application/rdf%2Bxml
 ), and has a [SPARQL endpoint](https://skos.um.es/sparql/).
 
-The broader/narrower relationships in the UNESCO thesaurus make it a good candidate for things like drop-down menus although it will undoubetdly need to be supplemented with other definitions of social issues to meet the needs of specific organizations.
-
 As a start I propose a class "Issue" and four predicates that take it as range.
 
 * **:Issue** - A human right, need, problem, or other social issue.
@@ -31,7 +29,9 @@ We can then make statements like these :
 
 I see two related ways organizations can make use of these kinds of statements - 1) on a broad level as a way to present the organization's profile and 2) At a more specific level to label the issues impacted by each specific product, service, and activity as a record of the "why" part of "how/why" and as part of the process of evaluating the organization's impact on the world.
 
-For an organization's profile, we could offer dropdowns similar to the workplace-picker for individuals that would allow them to specify their relationship to the issues.  This would provide a very concise overview of the organization.  For example, part of Solid Project's profile might be modeled something like this :
+For an organization's profile, we could offer dropdowns similar to the workplace-picker for individual profiless that would allow them to specify their relationship to the issues.  The broader/narrower relationships in the UNESCO thesaurus make it a good candidate for things like drop-down menus although it will undoubetdly need to be supplemented with other definitions of social issues to meet the needs of specific organizations. 
+
+We could then use the organizations core issues, policies, and activities to provide a very concise overview of the organization.  For example, part of Solid Project's profile might be modeled something like this :
 
 <img src="organization-profile.png" />
 
