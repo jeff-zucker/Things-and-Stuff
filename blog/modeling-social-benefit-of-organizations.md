@@ -1,6 +1,6 @@
 # Modeling the Social Benefit of Organizations
 
-One of the foundational visions of Solid and the web itself is that "The web should be a platform that helps people and provides a net positive social benefit."[1](https://www.w3.org/2001/tag/doc/ethical-web-principles/) Following are some thoughts on how to begin using linked data to model social benefit and in particular, how to model the social benefit of organizations.  
+One of the foundational visions of Solid and the web itself is that "The web should be a platform that helps people and provides a net positive social benefit."[[1](https://www.w3.org/2001/tag/doc/ethical-web-principles/)] Following are some thoughts on how to begin using linked data to model social benefit and in particular, how to model the social benefit of organizations.  
 
 Tim BL, in [his post on Public Data](https://solidos.solidcommunity.net/public/2021/BuildingSolidAppsUsingPublicData-V3.html) spoke of several parts of an organizatin's profile, focusing primarily on the type of organization and on the membership.  I will expand on that to talk about how an organization can both describe and carry out its goals and activities through a lens of social benefit.
 
